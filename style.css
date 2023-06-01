@@ -1,0 +1,85 @@
+body{
+    width:100%;
+    background-color: rgba(28, 40, 83, 0.8);
+    margin: 40px 30px;
+    color:#f3f3f3;
+    font-size:16px;
+  }
+  
+ #title{
+    font-family:'Poppins', sans-serif;
+    color:#f3f3f3;
+    margin: 20px 0 auto;
+  }
+  
+p,h1{
+     text-align: center;
+   }
+  
+form{
+     background-color: rgba(27, 27, 50, 0.5);
+     width:70%;
+     margin:auto;
+     padding: 30px;
+     color:white;
+     max-width: 500px;
+     min-width: 300px;
+   }
+  
+.drop{
+     display:block;
+   }
+  
+fieldset{
+    border: none;
+  }
+  
+label{
+    display:block;
+    margin: 0.5rem 0;
+  }
+  
+input{
+    margin-top : 5px;
+    margin-bottom: 10px;
+    background-color: blanchedalmond;
+    border:none;
+  }
+  
+.q , #name-label, #email-label, #number-label{
+    font-weight:bold;
+    color:rgba(63, 130, 255, 0.8);
+    font-size:19px;
+  }
+
+.details{
+    width:100%;
+    display:block;
+    height: 20px;
+    margin-bottom: 14px;
+  }
+
+#dropdown{
+    margin-top:10px;
+    margin-bottom: 15px;
+    width:50%;
+  }
+  
+.inline{
+    display:inline;
+    width:unset;
+  }
+
+textarea{
+     width:100%;
+     background-color:blanchedalmond;
+   }
+
+#submit {
+     display:block;
+     font-size: 20px;
+     width:70%;
+     margin: 1em auto;
+     background-color:#37af65;
+     border-color:rgb(80,255,120);
+   }
